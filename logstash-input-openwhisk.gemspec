@@ -24,8 +24,8 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'stud', "~> 0.0.22"
   s.add_runtime_dependency 'rufus-scheduler', "~>3.0.9"
 
-  #s.add_development_dependency 'logstash-codec-json'
-  #s.add_development_dependency 'logstash-devutils'
-  #s.add_development_dependency 'flores'
-  #s.add_development_dependency 'timecop'
+  s.add_development_dependency 'logstash-codec-json'
+  s.add_development_dependency 'logstash-devutils'
+  s.add_development_dependency 'flores'
+  s.add_development_dependency 'timecop'
 end
